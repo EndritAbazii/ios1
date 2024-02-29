@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  Project
 //
-//  Created by NAM HYUNWOO on 15/10/20.
-//  Copyright © 2020 NAM HYUNWOO. All rights reserved.
+//  Created by Endrit Abazi on 25/02/24.
+//  Copyright © 2024 Endrit Abazi. All rights reserved.
 //
 
 import UIKit
