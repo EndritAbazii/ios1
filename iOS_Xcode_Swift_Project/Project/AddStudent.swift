@@ -2,8 +2,8 @@
 //  AddStudent.swift
 //  Project
 //
-//  Created by NAM HYUNWOO on 15/10/20.
-//  Copyright © 2020 NAM HYUNWOO. All rights reserved.
+//  Created by Leotrim Halimi on 23/02/24.
+//  Copyright © 2024 Leotrim Halimi. All rights reserved.
 //
 
 import UIKit
