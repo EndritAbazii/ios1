@@ -400,14 +400,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unit Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ow-uc-Xk1">
-                                <rect key="frame" x="31" y="328" width="81" height="21"/>
+                                <rect key="frame" x="31" y="371" width="81" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcK-AK-ykQ">
-                                <rect key="frame" x="177" y="321" width="170" height="34"/>
+                                <rect key="frame" x="177" y="364" width="170" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -424,31 +424,31 @@
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfA-tv-5S9">
-                                <rect key="frame" x="31" y="403" width="66" height="21"/>
+                                <rect key="frame" x="31" y="446" width="66" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fid-pq-lkw">
-                                <rect key="frame" x="0.0" y="512" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="555" width="414" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exam Date &amp; Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ov-wu-FzH">
-                                <rect key="frame" x="31" y="473" width="141" height="21"/>
+                                <rect key="frame" x="31" y="516" width="141" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rwx-q6-FaT">
-                                <rect key="frame" x="177" y="396" width="170" height="34"/>
+                                <rect key="frame" x="177" y="439" width="170" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exam-icon-style-vector" translatesAutoresizingMaskIntoConstraints="NO" id="UQc-f6-HoW">
-                                <rect key="frame" x="84" y="68" width="310" height="189"/>
+                                <rect key="frame" x="122" y="125" width="208" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -481,10 +481,10 @@
             </objects>
             <point key="canvasLocation" x="2908.6956521739135" y="2059.8214285714284"/>
         </scene>
-        <!--Exam Schedule-->
+        <!--Meeting Schedule-->
         <scene sceneID="VQw-x5-sYS">
             <objects>
-                <viewController id="a50-kV-cDe" customClass="ViewExam" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a50-kV-cDe" userLabel="Meeting Schedule" customClass="ViewExam" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ihE-IH-Can">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -642,12 +642,12 @@
                                 <rect key="frame" x="0.0" y="798" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Add Exam" id="yYE-pZ-z2o">
+                                    <barButtonItem title="Add a meet" id="yYE-pZ-z2o" userLabel="Add a meet">
                                         <connections>
                                             <segue destination="U2o-29-rea" kind="show" identifier="gotoAddExam" id="qJq-PP-ecS"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="View Exam" id="YKV-yT-6Pi">
+                                    <barButtonItem title="View meetings" id="YKV-yT-6Pi" userLabel="View Meeting">
                                         <connections>
                                             <segue destination="a50-kV-cDe" kind="show" identifier="gotoViewExam" id="azM-KU-RIE"/>
                                         </connections>
@@ -927,8 +927,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sci-Kk-vqH"/>
-        <segue reference="azM-KU-RIE"/>
+        <segue reference="M3t-Uv-E9c"/>
         <segue reference="3pG-N2-icZ"/>
         <segue reference="o1V-6j-aO7"/>
     </inferredMetricsTieBreakers>
