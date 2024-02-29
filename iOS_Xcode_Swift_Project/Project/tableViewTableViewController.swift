@@ -2,8 +2,8 @@
 //  tableViewTableViewController.swift
 //  Project
 //
-//  Created by NAM HYUNWOO & XIANG YANMU on 15/10/20.
-//  Copyright © 2020 NAM HYUNWOO & XIANG YANMU. All rights reserved.
+//  Created by Endrit Abazi on 25/02/24.
+//  Copyright © 2024 Endrit Abazi. All rights reserved.
 //
 
 import UIKit
